@@ -1,0 +1,44 @@
+.container{
+    font-family: "Joan", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 109px;
+    height: 104px;
+    border-radius: 50%;
+    background-color: #22CFED;
+    
+}
+h1{
+    font-weight: 400;
+    font-size: 24px;
+    color: #090404;
+}
+p{
+    max-width: 380px;
+    text-align: center;
+    color: #a69e9e;
+}
+.people{
+    display: flex;
+    gap: 123px;
+    background-color: #8CF2FF;
+    padding: 0 13px;
+    border-radius: 15px;
+    height: 49px;
+    margin-bottom: 70px;
+}
+.footer{
+    display: flex;
+    gap: 70px;
+}
+.footer div{
+    text-align: center;
+}
